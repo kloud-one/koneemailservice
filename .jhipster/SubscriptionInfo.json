@@ -1,0 +1,45 @@
+{
+    "name": "SubscriptionInfo",
+    "fields": [
+        {
+            "fieldName": "subscriptionStatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "token",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        },
+        {
+            "fieldName": "reason",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "lastModifiedDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "orgUserEmailInfo",
+            "otherEntityRelationshipName": "subscriptionInfo",
+            "relationshipName": "orguseremailinfo",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190630073620",
+    "entityTableName": "subscription_info",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "koneemailservice",
+    "applications": "*",
+    "microserviceName": "koneemailservice"
+}

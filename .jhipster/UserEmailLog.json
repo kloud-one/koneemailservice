@@ -1,0 +1,44 @@
+{
+    "name": "UserEmailLog",
+    "fields": [
+        {
+            "fieldName": "mailSendStatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "createdDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "subject",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "msgContent",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastModifiedDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "orgUserEmailInfo",
+            "otherEntityRelationshipName": "userEmailLog",
+            "relationshipName": "orguseremailinfo",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190630073621",
+    "entityTableName": "user_email_log",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "koneemailservice",
+    "applications": "*",
+    "microserviceName": "koneemailservice"
+}

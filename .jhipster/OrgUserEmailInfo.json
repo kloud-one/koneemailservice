@@ -1,0 +1,33 @@
+{
+    "name": "OrgUserEmailInfo",
+    "fields": [
+        {
+            "fieldName": "organizationName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "orgMemberEmailId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "lastModifiedDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190630073622",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "org_user_email_info",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "koneemailservice",
+    "applications": "*",
+    "microserviceName": "koneemailservice"
+}

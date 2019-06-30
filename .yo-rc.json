@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.kone.emailservice"
+    },
+    "jhipsterVersion": "6.1.1",
+    "applicationType": "microservice",
+    "baseName": "koneemailservice",
+    "packageName": "com.kone.emailservice",
+    "packageFolder": "com/kone/emailservice",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "koneuaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGFjMjAxYmJhNWNiODlmNTAwOWRlMTkzMTA5NTY2NTg5MDg2ZDc2MDA2NTY1MzBmOGM3YmNkZDExYzg0NzVhNGM2MWM0Mzk1NzgxOThmNWYxZjMyMTNiMGNkNmJjOTAxM2I5ODViYTcxMmEyNzdkNWQ5MWU2ZDM5OWJlZGU5NzI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
